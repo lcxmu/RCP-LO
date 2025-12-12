@@ -1,4 +1,4 @@
-name: DifFlow3D
+name: RCP_LO
 channels:
   - defaults
 dependencies:
