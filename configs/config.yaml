@@ -21,8 +21,8 @@ evaluate: False
 
 dataset: KITTI
 val_dataset: KITTI
-data_root: /ava16t/lw/Data/KITTI/sequences
-val_path: /ava16t/lw/Data/KITTI/sequences
+data_root: ./KITTI/sequences
+val_path: ./KITTI/sequences
 
 data_process:
   DEPTH_THRESHOLD: 35.
