@@ -79,7 +79,7 @@ def main():
 
         print(f"Loaded model epoch: {epoch}")
         logger.info(f"Loaded model epoch: {epoch}")
-        eval_pose1(model, test_dir_list, epoch)
+        eval_pose(model, test_dir_list, epoch)
 
     if args.pretrain is not None:
 
